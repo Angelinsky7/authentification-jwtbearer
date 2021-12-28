@@ -1,0 +1,58 @@
+{
+    "name": "darkink/authentification-jwtbearer",
+    "description": "Darkink Authentification JwtBearer provides a way to check authenticy of the jst bearer token.",
+    "keywords": ["laravel", "jwt", "oauth"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/angelinsky7/authentification-jwtbearer/issues",
+        "source": "https://github.com/angelinsky7/authentification-jwtbearer"
+    },
+    "authors": [
+        {
+            "name": "Angelinsky7",
+            "email": "steven.demarco@while-not-false.ch"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/auth": "^8.77",
+        "illuminate/console": "^8.77",
+        "illuminate/container": "^8.77",
+        "illuminate/contracts": "^8.77",
+        "illuminate/http": "^8.77",
+        "illuminate/support": "^8.77",
+        "lcobucci/jwt": "^4.1",
+        "phpseclib/phpseclib": "^3.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.4.4",
+        "nunomaduro/collision": "^5.10",
+        "phpunit/phpunit": "^9.5.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Darkink\\AuthentificationJwtBearer\\": "src/",
+            "Darkink\\AuthentificationJwtBearer\\Database\\Factories\\": "database/factories/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Darkink\\AuthentificationJwtBearer\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Darkink\\AuthentificationJwtBearer\\Providers\\AuthentificationJwtBearerProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
