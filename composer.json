@@ -1,11 +1,11 @@
 {
-    "name": "darkink/authentification-jwtbearer",
-    "description": "Darkink Authentification JwtBearer provides a way to check authenticy of the jwt bearer token.",
+    "name": "darkink/laravel-authentification-jwtbearer",
+    "description": "Darkink Laravel Authentification JwtBearer provides a way to check authenticy of the jst bearer token.",
     "keywords": ["laravel", "jwt", "oauth"],
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/angelinsky7/authentification-jwtbearer/issues",
-        "source": "https://github.com/angelinsky7/authentification-jwtbearer"
+        "issues": "https://github.com/angelinsky7/laravel-authentification-jwtbearer/issues",
+        "source": "https://github.com/angelinsky7/laravel-authentification-jwtbearer"
     },
     "authors": [
         {
